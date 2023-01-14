@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>  
+        <h1>Запропонувати роботу</h1>
+    </header>
+
+    <div>
+        <h3>Контактна інформація</h3>
+    </div>
+
+    <section>
+        <table border="1" cellspacing="0" cellpadding="5" >
+            <tbody>
+                <tr>
+                    <td><em>Тлефон</em></td>
+                    <td><strong>+380688513892</strong></td>
+                </tr>
+
+                <tr>
+                    <td><em>Адрес</em></td>
+                    <td><strong>м. Київ</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <form action="/index.html" method="post">
+        
+        <fieldset>
+            <legend>Контактна форма</legend>
+        <table>
+            <tbody>
+             <tr>
+              <td><label for="email">E-mail:</label></td>
+              <td><input type="email" required name="email" placeholder="yourmail@gmail.com"/></td>
+             </tr>
+    <br/>
+             <tr>
+              <td><label for="description">Опис:</label></td>
+              <td><textarea name="description" rows="5" cols="21" placeholder="Опишіть вакансію"></textarea></td>
+             </tr>
+            </tbody>
+    <br/>
+             <tr>
+              <td>Тип роботи:</td>
+              <td><select name="worktype">
+              <option value="work_in_the_office">Робота в офісі</option>
+              <option value="remote_work">Віддалена робота</option>
+              <option value="one_time_project">Разовий проект</option>
+              </select></td>
+             </tr>
+        </table>
+    </br>
+        <input type="submit" value="Найняти мене"/>
+        </fieldset>
+
+        </form>
+    </section>
+</body>
+</html>

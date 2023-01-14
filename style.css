@@ -1,0 +1,19 @@
+.title,
+.sub-title,
+.hard-skills-list,
+.soft-skills-list {
+  border-bottom: 1px solid turquoise;
+}
+
+.main-image {
+  padding: 10px;
+  border: 2px solid turquoise;
+}
+
+.table th {
+  background-color: aquamarine;
+}
+
+.table td {
+  background-color: lightcyan;
+}
