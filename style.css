@@ -1,19 +1,32 @@
-.title,
-.sub-title,
-.hard-skills-list,
-.soft-skills-list {
-  border-bottom: 1px solid turquoise;
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-image {
-  padding: 10px;
-  border: 2px solid turquoise;
+.sub-title {
+  font-weight: 700;
 }
 
-.table th {
-  background-color: aquamarine;
+h1 {
+  font-style: italic;
 }
 
-.table td {
-  background-color: lightcyan;
+table th {
+  text-transform: uppercase;
+}
+
+a:link {
+  color: #00f;
+}
+
+a:visited {
+  color: #005;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
 }
